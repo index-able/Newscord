@@ -1219,7 +1219,6 @@ ul li{
     justify-content: start;
     align-items: start;
     column-gap: 1rem;
-    min-width: 407px;
 }
 
 .footwrapp{
@@ -1293,7 +1292,6 @@ ul li{
     justify-content: start;
     align-items: end;
     padding: 0rem 0.625rem 0rem 0.625rem;
-    min-width: 400px;
 }
 
 .subscription-content{
@@ -1431,7 +1429,6 @@ ul li{
     justify-content: end;
     align-items: start;
     column-gap: 3.5rem;
-    min-width: 407px;
 }
 
 .footwarep{
@@ -1946,4 +1943,24 @@ ul li{
     .logo-container{
         display: none;
     }
+
+    
+}
+
+@media (max-width: 370px){
+    .subscription-input{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.312rem;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .input-covmp{
+        width: 100%;
+    }
+
+
 }
